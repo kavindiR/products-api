@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="3">
+<mxfile host="app.diagrams.net" pages="4">
   <diagram name="Page-1" id="ZR-wPXwlC0RBDAzR9wau">
     <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -447,8 +447,25 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TwD1nSlO4OZsDcmbrezJ-8" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p&gt;&lt;code&gt;- id : Long&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;- name : String&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;- price : double&lt;/code&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p&gt;&lt;code&gt;+ Product()&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;+ Product(id : Long, name : String, price : double)&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;+ getId() : Long&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;+ getName() : String&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;+ getPrice() : double&lt;/code&gt;&lt;/p&gt;" vertex="1">
+        <mxCell id="TwD1nSlO4OZsDcmbrezJ-8" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Product&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p&gt;&lt;code&gt;- id : Long&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;- name : String&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;- price : double&lt;/code&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p&gt;&lt;code&gt;+ Product()&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;+ Product(id : Long, name : String, price : double)&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;+ getId() : Long&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;+ getName() : String&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;+ getPrice() : double&lt;/code&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="260" width="390" x="170" y="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bLdNHGtVYLVaLJ8EI1_y" name="Page-4">
+    <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uVoceUG23di-8EQSTyY_-4" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="350" width="510" x="150" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="uVoceUG23di-8EQSTyY_-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontStyle=1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Address&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p&gt;- street : String&lt;/p&gt;&lt;p&gt;- city : String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p&gt;+ Address()&lt;/p&gt;&lt;p&gt;+ Address(street, city)&lt;/p&gt;&lt;p&gt;+ getStreet() : String&lt;/p&gt;&lt;p&gt;+ getCity() : String&lt;/p&gt;" vertex="1">
+          <mxGeometry height="310" width="230" x="410" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="uVoceUG23di-8EQSTyY_-5" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontStyle=1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Customer&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p&gt;- id : Long&lt;/p&gt;&lt;p&gt;- name : String&lt;/p&gt;&lt;p&gt;- address : Address&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div&gt;&lt;/div&gt;&lt;p&gt;+ Customer()&lt;/p&gt;&lt;p&gt;+ Customer(id, name, address)&lt;/p&gt;&lt;p&gt;+ getId() : Long&lt;/p&gt;&lt;p&gt;+ getName() : String&lt;/p&gt;&lt;p&gt;+ getAddress() : Address&lt;/p&gt;" vertex="1">
+          <mxGeometry height="310" width="230" x="170" y="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
